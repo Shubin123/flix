@@ -1,0 +1,38 @@
+{
+  "sources.json": {
+    "bytes": 19410,
+    "sha256": "a5582316f2c051e75120fcbe22232b602c89f38c65269734190016c0b0edf664"
+  },
+  "model.json": {
+    "bytes": 7396,
+    "sha256": "422234720cc4986e4e917e82a2b65d189936e2c05a441c0cb2b64e1202f7dd8c"
+  },
+  "catalog.json.gz": {
+    "bytes": 11615396,
+    "sha256": "e509ffa55c33e6a35ae0c6958654155a79f1cf440a546b2d31a5347a802323c0"
+  },
+  "features.indices.u16.gz": {
+    "bytes": 2563373,
+    "sha256": "c6b552061c4a305d160469512f0a9163307412d114ba216ee2ac19361366f99d"
+  },
+  "embeddings.i8.gz": {
+    "bytes": 2467866,
+    "sha256": "14315beb6f0397f0d0239874c12dcbcda7700891c72be6f9aeb4481e22e5902d"
+  },
+  "features.values.u8.gz": {
+    "bytes": 629730,
+    "sha256": "cef1d5d46c2fb620aff839df381355598763f65f45d4f270e2244bacfcfd2410"
+  },
+  "vocabulary.json.gz": {
+    "bytes": 104908,
+    "sha256": "79af7423e722b3aaac71b6c95bbf51ce8858c9f69501182b32b251c22b663f7e"
+  },
+  "features.offsets.u32.gz": {
+    "bytes": 57364,
+    "sha256": "83f7ab38a8b154acb7251f2ad1ec930a9097f387d8309fdd8ec9f8e8a789a69f"
+  },
+  "projection.f32.gz": {
+    "bytes": 6471189,
+    "sha256": "e2b50869cb3757e377ca6c5ebfde0bd122f6a95d6fab747bf44d55bc418d218e"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "flix-recommender",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A private-by-design movie discovery app trained on nine cited Kaggle datasets",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/model.test.mjs",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.0"
+  }
+}

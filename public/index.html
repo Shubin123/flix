@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101512">
+  <meta name="description" content="Find your next favorite movie. Flix matches your taste, favorite films and mood with a trained movie model built from fourteen credited datasets. No signup needed.">
+  <meta property="og:title" content="Flix — less scrolling, more cinema">
+  <meta property="og:description" content="A movie night, made personal. Discover films through your favorites, mood and a little curiosity.">
+  <title>Flix — Find your next great movie</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#taste">Skip to movie finder</a>
+  <header class="site-header shell">
+    <a class="brand" href="./" aria-label="Flix home"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="9" fill="currentColor"/><path d="M11 9h12v4h-8v3h6v4h-6v6h-4z" fill="#101512"/><circle cx="7" cy="8" r="1" fill="#101512"/><circle cx="7" cy="14" r="1" fill="#101512"/><circle cx="7" cy="20" r="1" fill="#101512"/></svg><span>flix<span class="brand-dot">.</span></span></a>
+    <nav aria-label="Main navigation">
+      <button class="nav-link active" id="discover-nav" type="button">Discover</button>
+      <button class="nav-link" id="watchlist-nav" type="button">Watchlist <span id="watchlist-count" class="nav-count">0</span></button>
+      <button class="nav-link" id="sources-nav" type="button">Sources & model</button>
+    </nav>
+    <a class="github-link" href="https://github.com/Shubin123/flix" target="_blank" rel="noopener noreferrer" aria-label="View Flix on GitHub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.5 21.6c.55.1.76-.24.76-.54v-2.1c-3.1.68-3.75-1.32-3.75-1.32-.5-1.28-1.23-1.62-1.23-1.62-1.02-.7.08-.69.08-.69 1.12.08 1.71 1.14 1.71 1.14.99 1.7 2.6 1.21 3.24.93.1-.72.39-1.21.71-1.49-2.48-.28-5.08-1.24-5.08-5.52 0-1.22.44-2.22 1.14-3-.11-.28-.49-1.42.11-2.96 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.56 0c2.12-1.44 3.05-1.14 3.05-1.14.6 1.54.22 2.68.11 2.96.71.78 1.14 1.78 1.14 3.01 0 4.29-2.61 5.23-5.1 5.51.4.35.76 1.03.76 2.07v3.08c0 .3.2.64.77.53A11.1 11.1 0 0 0 12 .9z"/></svg><span>Open source <span aria-hidden="true">↗</span></span></a>
+  </header>
+
+  <main class="shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> A MOVIE NIGHT, MADE PERSONAL</p>
+        <h1 id="hero-title">Less scrolling.<br>More <em>cinema.</em></h1>
+        <p class="hero-description">For the films you’ll think about tomorrow.<br>Tell us what you love. Find your next great watch.</p>
+        <a class="hero-cta" href="#taste">Find my next movie <span aria-hidden="true">↗</span></a>
+        <div class="hero-stats" aria-label="Catalog facts"><span><strong id="movie-stat">35,000</strong> films to explore</span><span><strong id="source-stat">14</strong> credited datasets</span><span><span class="privacy-dot" aria-hidden="true">◉</span> Your taste stays here</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-poster poster-one" data-hero="157336"><span>INTERSTELLAR</span></div>
+        <div class="hero-poster poster-two" data-hero="120467"><span>THE GRAND<br>BUDAPEST HOTEL</span></div>
+        <div class="hero-poster poster-three" data-hero="129"><span>SPIRITED AWAY</span></div>
+        <div class="curator-note"><span class="note-star">✳</span><div>A whole world of stories.<br><strong>One that feels like you.</strong></div></div>
+        <span class="art-label">GOOD STORIES FIND GOOD COMPANY</span>
+      </div>
+    </section>
+
+    <section class="taste-panel" id="taste" aria-labelledby="taste-title">
+      <div class="section-intro"><div><p class="eyebrow small">01 / SET THE SCENE</p><h2 id="taste-title">What’s your kind of movie?</h2></div><span class="local-badge"><span aria-hidden="true">⌁</span> No account. Just your taste.</span></div>
+      <div id="load-status" class="load-status" role="status"><span class="spinner"></span> Loading your movie universe…</div>
+      <form id="taste-form">
+        <div class="taste-columns">
+          <div class="prompt-column">
+            <label for="prompt">Describe tonight’s mood <span class="optional">optional</span></label>
+            <textarea id="prompt" rows="3" maxlength="600" placeholder="A thoughtful sci-fi film about space, with a little mystery…"></textarea>
+            <div class="mood-presets" aria-label="Try a mood"><span>Try a mood</span><button type="button" data-mood="mind">Mind-bending</button><button type="button" data-mood="comfort">Comfort watch</button><button type="button" data-mood="edge">On the edge</button><button type="button" data-mood="wonder">A little wonder</button></div>
+          </div>
+          <div class="favorites-column">
+            <label for="favorite-search">A few films you love <span class="optional">up to 5</span></label>
+            <div class="search-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="favorite-search" type="search" placeholder="Search for a favorite film…" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="favorite-options" disabled><div id="favorite-options" class="search-options" role="listbox" aria-label="Matching movies" hidden></div></div>
+            <div class="selected-favorites" id="selected-favorites" aria-live="polite"><p class="favorite-hint">Loved <button type="button" class="inline-seed" data-seed="27205">Inception</button> or <button type="button" class="inline-seed" data-seed="244786">Whiplash</button>? Start there.</p></div>
+          </div>
+        </div>
+        <div class="genre-heading"><label id="genre-label">Or pick your favorite genres <span class="optional">any of these</span></label><button type="button" class="text-button" id="all-genres" aria-expanded="false">All genres <span aria-hidden="true">+</span></button></div>
+        <div class="genre-chips" id="genre-chips" role="group" aria-labelledby="genre-label"></div>
+        <div class="form-bottom"><details id="filters"><summary><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/><circle cx="8" cy="6" r="2" fill="#171e19"/><circle cx="16" cy="12" r="2" fill="#171e19"/><circle cx="10" cy="18" r="2" fill="#171e19"/></svg> Fine-tune your picks <span id="filter-count"></span></summary><div class="filter-grid"><label>From year<select id="min-year"><option value="1870">Any year</option></select></label><label>Through year<select id="max-year"><option value="2100">Any year</option></select></label><label>Time to spare<select id="runtime"><option value="360">Any length</option><option value="90">90 minutes or less</option><option value="120">2 hours or less</option><option value="150">2½ hours or less</option><option value="180">3 hours or less</option></select></label><label>Minimum rating<select id="rating"><option value="0">Any rating</option><option value="6">6+ / 10</option><option value="7">7+ / 10</option><option value="8">8+ / 10</option></select></label><label>Original language<select id="language"><option value="">Any language</option></select></label></div></details><div class="form-actions"><button class="text-button reset-button" type="button" id="reset">Reset</button><button class="primary-button" id="recommend-button" type="submit" disabled>Find my movies <span aria-hidden="true">↗</span></button></div></div>
+      </form>
+    </section>
+
+    <section class="results-section" id="results-section" aria-labelledby="results-title">
+      <div class="results-heading"><div><p class="eyebrow small" id="results-eyebrow">02 / THE OPENING CREDITS</p><h2 id="results-title">Great films. A good place to start.</h2><p id="results-description">A few audience favorites while you find your mood.</p></div><div class="results-meta" id="results-meta">A little curiosity goes a long way <span aria-hidden="true">✳</span></div></div>
+      <div class="collections" id="collections" role="group" aria-label="Browse movie collections"><button type="button" data-collection="" aria-pressed="true">All films</button><button type="button" data-collection="recent" aria-pressed="false">2024–2026</button><button type="button" data-collection="academy" aria-pressed="false">Academy winners</button><button type="button" data-collection="best-picture" aria-pressed="false">Best Picture</button><button type="button" data-collection="hbo" aria-pressed="false">HBO Max</button><button type="button" data-collection="netflix" aria-pressed="false">Netflix</button><button type="button" data-collection="prime" aria-pressed="false">Prime Video</button><button type="button" data-collection="disney" aria-pressed="false">Disney+</button><button type="button" data-collection="hulu" aria-pressed="false">Hulu</button></div>
+      <p id="collection-note" class="collection-note">Films through 2026 · Academy wins through the 2026 ceremony · Provider collections are historical catalogs.</p>
+      <div id="results-grid" class="movie-grid" aria-live="polite" aria-busy="true"></div>
+      <div class="results-footer"><p id="results-note">Movie matches are based on story and style, not predicted ratings.</p><button id="more-results" type="button" class="secondary-button" hidden>Explore more picks <span aria-hidden="true">↓</span></button></div>
+    </section>
+
+    <section class="how-it-works" aria-label="How Flix works"><div class="how-mark" aria-hidden="true">✳</div><div><h3>Good taste. A little data. No endless scrolling.</h3><p>Your favorites and words become a taste profile. Flix finds films with related stories, people and genres, with a little room for discovery. Everything runs in your browser.</p></div><button class="text-button" id="how-sources" type="button">Meet the model <span aria-hidden="true">↗</span></button></section>
+  </main>
+
+  <footer class="site-footer shell"><a class="brand footer-brand" href="./">flix.</a><p>Made for the love of a good film.</p><div><button type="button" id="footer-sources" class="text-button">Data & credits</button><span>·</span><a href="https://github.com/Shubin123/flix" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
+
+  <dialog id="movie-dialog" class="movie-dialog" aria-labelledby="movie-dialog-title"><button class="dialog-close" type="button" aria-label="Close movie details">×</button><div id="movie-details"></div></dialog>
+  <dialog id="sources-dialog" class="sources-dialog" aria-labelledby="sources-title"><button class="dialog-close" type="button" aria-label="Close sources and model">×</button><div class="sources-content"><p class="eyebrow small">BUILT ON THE WORK OF REAL PEOPLE</p><h2 id="sources-title">The data behind the discovery.</h2><p class="sources-lead">Fourteen datasets. A shared love of cinema. Credit belongs to the people who gathered the data and the communities who maintain it.</p><div id="model-facts" class="model-facts"></div><h3>Dataset creators & sources</h3><p class="subtle">Every source is pinned to a version. Ratings retain their source label. Streaming catalogs are historical snapshots, not a promise of availability today.</p><div id="source-list"></div><div class="tmdb-credit"><a href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer"><img src="./assets/tmdb.svg" alt="The Movie Database" width="130" height="24"></a><p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p></div><h3>How the model works</h3><p>Flix fits TF-IDF on movie plots, genres, keywords, cast and directors, then learns a 96-dimension latent semantic representation with truncated SVD. Your words and favorite films are compared in both this learned space and the original TF-IDF features. Shared people, source ratings and a small diversity adjustment shape the final list.</p><p>Recommendations are content similarities, not a probability you’ll enjoy a film. This model has no held-out user-preference evaluation. English plot text, popularity and missing metadata influence its coverage. Filters are based on source metadata and are not parental controls.</p><p>Your preferences and watchlist stay in this browser’s local storage. They are not sent to a recommendation server. Movie posters load from TMDB; hosting and image providers receive ordinary web requests.</p><p>This is a noncommercial discovery demo. Code uses the MIT license; third-party data and artwork retain their own terms. Kaggle license labels do not replace original providers’ rights.</p><div class="source-links"><a href="https://github.com/Shubin123/flix/blob/main/docs/SOURCES.md" target="_blank" rel="noopener noreferrer">Full credits & licenses ↗</a><a href="./data/model.json" target="_blank" rel="noopener noreferrer">Training report ↗</a><a href="./data/sources.json" target="_blank" rel="noopener noreferrer">Download receipts ↗</a></div></div></dialog>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

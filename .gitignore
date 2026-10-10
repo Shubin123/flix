@@ -1,0 +1,9 @@
+.venv/
+node_modules/
+data/raw/
+dist/
+test-results/
+__pycache__/
+*.pyc
+.DS_Store
+

@@ -1,0 +1,398 @@
+[
+  {
+    "id": "tmdb-full",
+    "ref": "asaniczka/tmdb-movies-dataset-2023-930k-movies",
+    "version": 1085,
+    "expectedLicense": "ODC Attribution License (ODC-By)",
+    "use": "Current TMDB titles, plots, genres, ratings, runtimes, languages and poster paths",
+    "upstream": "https://www.themoviedb.org",
+    "terms": "https://opendatacommons.org/licenses/by/1-0/",
+    "url": "https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies",
+    "title": "Full TMDB Movies Dataset 2024 (1M Movies)",
+    "author": "asaniczka",
+    "license": "ODC Attribution License (ODC-By)",
+    "datasetUpdatedAt": "2026-10-10T06:20:22.96Z",
+    "downloadedAt": "2026-10-10T18:04:28.980542+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/asaniczka/tmdb-movies-dataset-2023-930k-movies?datasetVersionNumber=1085",
+    "archiveBytes": 267413844,
+    "archiveSha256": "24a8db1d5b43e844cfc0d4cabf3e89094e62f29924a3f78b51c41a0a0edc4c9e",
+    "files": [
+      {
+        "name": "TMDB_movie_dataset_v11.csv",
+        "bytes": 667259018,
+        "sha256": "7562641c59505e5f92a2be9a01e03379ce30a8f6516134bebd366ddf426aa6a4"
+      }
+    ]
+  },
+  {
+    "id": "movies",
+    "ref": "rounakbanik/the-movies-dataset",
+    "version": 7,
+    "expectedLicense": "CC0: Public Domain",
+    "use": "TMDB movie metadata, cast, directors and plot keywords; MovieLens ratings and links are excluded",
+    "upstream": "https://www.themoviedb.org",
+    "terms": "https://developer.themoviedb.org/docs/faq",
+    "url": "https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset",
+    "title": "The Movies Dataset",
+    "author": "Rounak Banik",
+    "license": "CC0: Public Domain",
+    "datasetUpdatedAt": "2017-11-10T02:40:38.583Z",
+    "downloadedAt": "2026-10-10T18:04:33.892343+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/rounakbanik/the-movies-dataset?datasetVersionNumber=7",
+    "archiveBytes": 238862293,
+    "archiveSha256": "2257306173ac5ccd56a30737dee19452c6dd23b0a4cd21e30d4c266dcd2b04e6",
+    "files": [
+      {
+        "name": "credits.csv",
+        "bytes": 189917659,
+        "sha256": "b968359c8e77aebcb7329608378b3b11cc1834726e157aae934bc89f291458ec"
+      },
+      {
+        "name": "keywords.csv",
+        "bytes": 6231943,
+        "sha256": "428ef94a80255986ad71fd347855702e772ee776841f1e8923a618aa2d87a668"
+      },
+      {
+        "name": "movies_metadata.csv",
+        "bytes": 34445126,
+        "sha256": "37ec322786b136a24604564e55160be75f8937546f11cb1a990076971fa895fd"
+      }
+    ]
+  },
+  {
+    "id": "tmdb-5000",
+    "ref": "tmdb/tmdb-movie-metadata",
+    "version": 2,
+    "expectedLicense": "Other (specified in description)",
+    "use": "TMDB movie metadata, cast, directors and plot keywords",
+    "upstream": "https://www.themoviedb.org",
+    "terms": "https://developer.themoviedb.org/docs/faq",
+    "url": "https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata",
+    "title": "TMDB 5000 Movie Dataset",
+    "author": "Sohier Dane",
+    "license": "Other (specified in description)",
+    "datasetUpdatedAt": "2017-09-28T01:09:12.897Z",
+    "downloadedAt": "2026-10-10T18:04:16.683405+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/tmdb/tmdb-movie-metadata?datasetVersionNumber=2",
+    "archiveBytes": 9317430,
+    "archiveSha256": "0342a9748128f44e6a58e96af19d918478af73a8976b142aa4e7e0aa3c50ef1b",
+    "files": [
+      {
+        "name": "tmdb_5000_credits.csv",
+        "bytes": 40044293,
+        "sha256": "9d0050599ff88d40366c4841204b1489862bca346bfa46c20b05a65d14508435"
+      },
+      {
+        "name": "tmdb_5000_movies.csv",
+        "bytes": 5698602,
+        "sha256": "1e0584a8dd374120e4ed4f2b81f0d2bd0eb95a554708e4a350d00ed5c46d2825"
+      }
+    ]
+  },
+  {
+    "id": "imdb-top",
+    "ref": "harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows",
+    "version": 1,
+    "expectedLicense": "CC0: Public Domain",
+    "use": "Top-film genres, cast, directors, ratings and runtime",
+    "upstream": "https://www.imdb.com",
+    "terms": "https://www.imdb.com/conditions",
+    "url": "https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows",
+    "title": "IMDB Movies Dataset",
+    "author": "Harshit Shankhdhar",
+    "license": "CC0: Public Domain",
+    "datasetUpdatedAt": "2021-02-01T07:35:48.597Z",
+    "downloadedAt": "2026-10-10T18:04:17.649840+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows?datasetVersionNumber=1",
+    "archiveBytes": 179262,
+    "archiveSha256": "9f23c760b919483688c1f6ada4900a768566f4a2e4ca69ebee629c096afbea68",
+    "files": [
+      {
+        "name": "imdb_top_1000.csv",
+        "bytes": 438096,
+        "sha256": "22061a1dfb302c672d9bc4e8ddefc290fd8d9e871b96643009033a8df52231f1"
+      }
+    ]
+  },
+  {
+    "id": "netflix",
+    "ref": "shivamb/netflix-shows",
+    "version": 5,
+    "expectedLicense": "CC0: Public Domain",
+    "use": "Movie-only catalog descriptions, cast, directors, genres and runtime; historical Netflix snapshot",
+    "upstream": "https://www.netflix.com",
+    "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "url": "https://www.kaggle.com/datasets/shivamb/netflix-shows",
+    "title": "Netflix Movies and TV Shows",
+    "author": "Shivam Bansal",
+    "license": "CC0: Public Domain",
+    "datasetUpdatedAt": "2021-09-27T04:44:36.77Z",
+    "downloadedAt": "2026-10-10T18:04:18.983394+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/shivamb/netflix-shows?datasetVersionNumber=5",
+    "archiveBytes": 1400865,
+    "archiveSha256": "1e5477bbbe868845be3b852d80eec2f1da6570340860668549a6dd5da0b00054",
+    "files": [
+      {
+        "name": "netflix_titles.csv",
+        "bytes": 3399671,
+        "sha256": "df1f4ad2027a5a14c3a33932ef0d4054565ff88adf92b7f263601b70fdc6f3f3"
+      }
+    ]
+  },
+  {
+    "id": "netflix-2022",
+    "ref": "victorsoeiro/netflix-tv-shows-and-movies",
+    "version": 2,
+    "expectedLicense": "CC0: Public Domain",
+    "use": "Movie-only genres, descriptions, cast and directors from a July 2022 US JustWatch snapshot",
+    "upstream": "https://www.justwatch.com/us",
+    "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "url": "https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies",
+    "title": "Netflix TV Shows and Movies",
+    "author": "Victor Soeiro",
+    "license": "CC0: Public Domain",
+    "datasetUpdatedAt": "2022-07-26T19:50:06.213Z",
+    "downloadedAt": "2026-10-10T18:04:20.861881+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/victorsoeiro/netflix-tv-shows-and-movies?datasetVersionNumber=2",
+    "archiveBytes": 2362159,
+    "archiveSha256": "f1463cbfb3c6ed79bbbe86e89fbc508c6e0417a53ddb10822b229fe41dea94b3",
+    "files": [
+      {
+        "name": "credits.csv",
+        "bytes": 3816592,
+        "sha256": "7122fdc347134241a3192436ae1823ed3e2a50e57985e10ee337cd86b260d831"
+      },
+      {
+        "name": "titles.csv",
+        "bytes": 2028486,
+        "sha256": "639cba13a200033e1ebb8e71243eef2d6d4453706ccff67e101f4935dbaad012"
+      }
+    ]
+  },
+  {
+    "id": "platforms",
+    "ref": "ruchi798/movies-on-netflix-prime-video-hulu-and-disney",
+    "version": 5,
+    "expectedLicense": "CC0: Public Domain",
+    "use": "Movie titles, years and historical catalog membership; no live availability claims",
+    "upstream": null,
+    "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "url": "https://www.kaggle.com/datasets/ruchi798/movies-on-netflix-prime-video-hulu-and-disney",
+    "title": "Movies on Netflix, Prime Video, Hulu and Disney+",
+    "author": "Ruchi Bhatia",
+    "license": "CC0: Public Domain",
+    "datasetUpdatedAt": "2021-12-16T16:30:28.55Z",
+    "downloadedAt": "2026-10-10T18:04:22.083208+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/ruchi798/movies-on-netflix-prime-video-hulu-and-disney?datasetVersionNumber=5",
+    "archiveBytes": 170402,
+    "archiveSha256": "5ec065030fe0b1072bec754df5d02487f9a5adfc6446244bb49e0a62fdb4de8b",
+    "files": [
+      {
+        "name": "MoviesOnStreamingPlatforms.csv",
+        "bytes": 506071,
+        "sha256": "0d8e6910132c27eb536787fa1252682c51b9dfc3074e710740612b66f4995c53"
+      }
+    ]
+  },
+  {
+    "id": "prime",
+    "ref": "shivamb/amazon-prime-movies-and-tv-shows",
+    "version": 1,
+    "expectedLicense": "CC0: Public Domain",
+    "use": "Movie-only descriptions, cast, directors, genres and runtime; historical Prime Video snapshot",
+    "upstream": "https://www.primevideo.com",
+    "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "url": "https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows",
+    "title": "Amazon Prime Movies and TV Shows",
+    "author": "Shivam Bansal",
+    "license": "CC0: Public Domain",
+    "datasetUpdatedAt": "2021-10-12T14:55:12.2Z",
+    "downloadedAt": "2026-10-10T18:04:23.410793+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/shivamb/amazon-prime-movies-and-tv-shows?datasetVersionNumber=1",
+    "archiveBytes": 1690539,
+    "archiveSha256": "f36bd2735816fa57ce96227718145a66a5c221d7a2b7ad7f4e1ece59e68bdcd6",
+    "files": [
+      {
+        "name": "amazon_prime_titles.csv",
+        "bytes": 3972416,
+        "sha256": "ba54b448affd40f0813e470365b6860e647aead3a51e9196b93205eb0f031e8f"
+      }
+    ]
+  },
+  {
+    "id": "hbo",
+    "ref": "victorsoeiro/hbo-max-tv-shows-and-movies",
+    "version": 1,
+    "expectedLicense": "CC0: Public Domain",
+    "use": "Movie-only genres, descriptions, cast and directors from a May 2022 US JustWatch snapshot",
+    "upstream": "https://www.justwatch.com/us",
+    "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "url": "https://www.kaggle.com/datasets/victorsoeiro/hbo-max-tv-shows-and-movies",
+    "title": "HBO Max TV Shows and Movies",
+    "author": "Victor Soeiro",
+    "license": "CC0: Public Domain",
+    "datasetUpdatedAt": "2022-05-19T00:26:30.55Z",
+    "downloadedAt": "2026-10-10T18:04:25.592789+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/victorsoeiro/hbo-max-tv-shows-and-movies?datasetVersionNumber=1",
+    "archiveBytes": 1797986,
+    "archiveSha256": "30067f421c9f51014b180d6dff0c27f76dc3cd4adf9ca121253712b0ab462049",
+    "files": [
+      {
+        "name": "credits.csv",
+        "bytes": 3382957,
+        "sha256": "b20ba580d8d143c8d7e16391e0761dfe880f100924eeb144da82da98ad3d2759"
+      },
+      {
+        "name": "titles.csv",
+        "bytes": 1317888,
+        "sha256": "bb3f911268ed9b330d997841b74fe63eaec1e486e33c23b60dbd75581f8ef9c0"
+      }
+    ]
+  },
+  {
+    "id": "tmdb-2026",
+    "ref": "dhritisisodia/tmdb-top-10000-movies-dataset-2026",
+    "version": 1,
+    "expectedLicense": "CC0: Public Domain",
+    "use": "A 2026 TMDB snapshot to extend recent movie metadata and refresh ratings",
+    "upstream": "https://www.themoviedb.org",
+    "terms": "https://developer.themoviedb.org/docs/faq",
+    "url": "https://www.kaggle.com/datasets/dhritisisodia/tmdb-top-10000-movies-dataset-2026",
+    "title": "TMDB Top Rated 10000 MOVIES DATASET 2026",
+    "author": "DHRITI SISODIA",
+    "license": "CC0: Public Domain",
+    "datasetUpdatedAt": "2026-02-16T10:13:59.937Z",
+    "downloadedAt": "2026-10-10T18:27:06.440628+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/dhritisisodia/tmdb-top-10000-movies-dataset-2026?datasetVersionNumber=1",
+    "archiveBytes": 1482378,
+    "archiveSha256": "9e346944e25283b49410f7f77e93322eb96a1f3de288042cb6d3dfbcfd00adb0",
+    "files": [
+      {
+        "name": "tmdb_top_10k_movies_2026.csv.csv",
+        "bytes": 3399497,
+        "sha256": "2e3e38e421afc935e1b686c47f7da32960baab12a962b8d75b767ea64556f00e"
+      }
+    ]
+  },
+  {
+    "id": "oscars",
+    "ref": "unanimad/the-oscar-award",
+    "version": 13,
+    "expectedLicense": "CC0: Public Domain",
+    "use": "Academy Award winners, categories and credited honorees through the 2026 ceremony",
+    "upstream": "https://awardsdatabase.oscars.org",
+    "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "additionalCredits": "unanimad; David Lu (DLu/oscar_data); lopcio, acknowledged in the dataset card",
+    "url": "https://www.kaggle.com/datasets/unanimad/the-oscar-award",
+    "title": "The Oscar Award, 1927 - 2026",
+    "author": "David Lu!!",
+    "license": "CC0: Public Domain",
+    "datasetUpdatedAt": "2026-05-11T18:40:25.5Z",
+    "downloadedAt": "2026-10-10T18:27:06.453344+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/unanimad/the-oscar-award?datasetVersionNumber=13",
+    "archiveBytes": 760673,
+    "archiveSha256": "d4db92beff76d7462c666726732333d74d149516ea0f4dcfbf3203c35b2f4e8b",
+    "files": [
+      {
+        "name": "full_data.csv",
+        "bytes": 2247354,
+        "sha256": "3b1d39eedad7303468b83323f51bd1069289a2710ff9873efc4b4298ae1bba78"
+      },
+      {
+        "name": "the_oscar_award.csv",
+        "bytes": 1160294,
+        "sha256": "9840283c504061c494ded638395e228d163ef76fa4b56b2d8b0f074ffd16eaba"
+      }
+    ]
+  },
+  {
+    "id": "prime-2022",
+    "ref": "victorsoeiro/amazon-prime-tv-shows-and-movies",
+    "version": 1,
+    "expectedLicense": "CC0: Public Domain",
+    "use": "Movie-only metadata and cast from a May 2022 US Prime Video / JustWatch snapshot",
+    "upstream": "https://www.justwatch.com/us",
+    "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "url": "https://www.kaggle.com/datasets/victorsoeiro/amazon-prime-tv-shows-and-movies",
+    "title": "Amazon Prime TV Shows and Movies",
+    "author": "Victor Soeiro",
+    "license": "CC0: Public Domain",
+    "datasetUpdatedAt": "2022-05-14T16:36:47.323Z",
+    "downloadedAt": "2026-10-10T18:27:06.700856+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/victorsoeiro/amazon-prime-tv-shows-and-movies?datasetVersionNumber=1",
+    "archiveBytes": 3943827,
+    "archiveSha256": "ce9c713334dbc341326f6bdb8760b84fc4c782aa2895bfd91385e4bbcab593d7",
+    "files": [
+      {
+        "name": "credits.csv",
+        "bytes": 5983039,
+        "sha256": "b2e9a2b2e7c4fd26d195753c1270924a29a3d5bb9a7f76eee4dc0738d7bbf8f1"
+      },
+      {
+        "name": "titles.csv",
+        "bytes": 3885461,
+        "sha256": "5f4ad616381076efb47e9bcca6a3b3bc2d053e6f255bcda25010f8d93b7d4af4"
+      }
+    ]
+  },
+  {
+    "id": "disney",
+    "ref": "victorsoeiro/disney-tv-shows-and-movies",
+    "version": 1,
+    "expectedLicense": "CC0: Public Domain",
+    "use": "Movie-only metadata and cast from a May 2022 US Disney+ / JustWatch snapshot",
+    "upstream": "https://www.justwatch.com/us",
+    "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "url": "https://www.kaggle.com/datasets/victorsoeiro/disney-tv-shows-and-movies",
+    "title": "Disney+ TV Shows and Movies",
+    "author": "Victor Soeiro",
+    "license": "CC0: Public Domain",
+    "datasetUpdatedAt": "2022-05-13T23:24:57.243Z",
+    "downloadedAt": "2026-10-10T18:27:07.621876+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/victorsoeiro/disney-tv-shows-and-movies?datasetVersionNumber=1",
+    "archiveBytes": 735205,
+    "archiveSha256": "4344a7153a71ca29b4a4aeed779fa5d3db13ed1d061e98491f12d16e93c782b5",
+    "files": [
+      {
+        "name": "credits.csv",
+        "bytes": 1375019,
+        "sha256": "bb92c7de823b62538a92002ff7d1084c3eb8b56571a5e824dd69457860c4cfbf"
+      },
+      {
+        "name": "titles.csv",
+        "bytes": 625540,
+        "sha256": "eb4710d12e864e0b0eed8b2375db8e1b87597f80dc1402c48c259be815b62227"
+      }
+    ]
+  },
+  {
+    "id": "hulu",
+    "ref": "victorsoeiro/hulu-tv-shows-and-movies",
+    "version": 1,
+    "expectedLicense": "CC0: Public Domain",
+    "use": "Movie-only metadata and cast from a May 2022 US Hulu / JustWatch snapshot",
+    "upstream": "https://www.justwatch.com/us",
+    "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "url": "https://www.kaggle.com/datasets/victorsoeiro/hulu-tv-shows-and-movies",
+    "title": "Hulu TV Shows and Movies",
+    "author": "Victor Soeiro",
+    "license": "CC0: Public Domain",
+    "datasetUpdatedAt": "2022-05-19T00:25:51.273Z",
+    "downloadedAt": "2026-10-10T18:27:07.392347+00:00",
+    "downloadUrl": "https://www.kaggle.com/api/v1/datasets/download/victorsoeiro/hulu-tv-shows-and-movies?datasetVersionNumber=1",
+    "archiveBytes": 1036006,
+    "archiveSha256": "12a1310bf7791906f9befe250d27ca12992f33ebdd5e3495f92f02497a108ba0",
+    "files": [
+      {
+        "name": "credits.csv",
+        "bytes": 1575855,
+        "sha256": "1338d0896fb41ec45f60ef7e8b383f9e7c039a9ec3fa60c927e883f5096e2a96"
+      },
+      {
+        "name": "titles.csv",
+        "bytes": 1019918,
+        "sha256": "3ec49a29158db835ce921de9fcedead8fba94276b3e6a11e69c78dcb3f964eab"
+      }
+    ]
+  }
+]
