@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect width="48" height="48" rx="14" fill="#c2ef78"/><path d="M15 12h21v6H22v6h11v6H22v11h-7z" fill="#101512"/><g fill="#101512"><circle cx="9" cy="12" r="2"/><circle cx="9" cy="22" r="2"/><circle cx="9" cy="32" r="2"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#243223"/>
+  <rect x=".75" y=".75" width="62.5" height="62.5" rx="15.25" stroke="#bbe495" stroke-opacity=".18" stroke-width="1.5"/>
+  <g color="#bbe495" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M26 16h23v7H33v9h13v7H33v12h-7V16Z"/><circle cx="16" cy="19" r="2" fill="currentColor"/><circle cx="16" cy="32" r="2" fill="currentColor"/><circle cx="16" cy="45" r="2" fill="currentColor"/></g>
+</svg>
